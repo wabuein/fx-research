@@ -1,0 +1,4 @@
+# only for scripts/ctrader_bot.py; never installed or run in this repo's tests
+ctrader-open-api
+twisted
+protobuf

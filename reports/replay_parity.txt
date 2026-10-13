@@ -1,0 +1,17 @@
+Replay parity: 12 pairs, last 5 bars each, config d4/1xATR/5R
+
+  OK  AUDUSD   checked= 314 mismatch=  0 live_sigs=310 truth_sigs=310 trades=125 seq_parity=yes
+  OK  EURUSD   checked= 343 mismatch=  0 live_sigs=339 truth_sigs=339 trades=126 seq_parity=yes
+  OK  EURGBP   checked= 309 mismatch=  0 live_sigs=305 truth_sigs=305 trades=120 seq_parity=yes
+  OK  NZDJPY   checked= 346 mismatch=  0 live_sigs=342 truth_sigs=342 trades=113 seq_parity=yes
+  OK  EURJPY   checked= 301 mismatch=  0 live_sigs=297 truth_sigs=297 trades=116 seq_parity=yes
+  OK  USDJPY   checked= 267 mismatch=  0 live_sigs=263 truth_sigs=263 trades= 95 seq_parity=yes
+  OK  GBPUSD   checked= 307 mismatch=  0 live_sigs=303 truth_sigs=303 trades=119 seq_parity=yes
+  OK  USDCAD   checked= 279 mismatch=  0 live_sigs=275 truth_sigs=275 trades=108 seq_parity=yes
+  OK  AUDJPY   checked= 271 mismatch=  0 live_sigs=267 truth_sigs=267 trades= 93 seq_parity=yes
+  OK  GBPJPY   checked= 351 mismatch=  0 live_sigs=347 truth_sigs=347 trades=122 seq_parity=yes
+  OK  GBPCHF   checked= 355 mismatch=  0 live_sigs=351 truth_sigs=351 trades=119 seq_parity=yes
+  OK  NZDUSD   checked= 302 mismatch=  0 live_sigs=298 truth_sigs=298 trades=116 seq_parity=yes
+
+TOTAL checked=3745 mismatch=0 sequential_parity=ALL OK
+VERDICT: PARITY PROVEN, live == backtest, no look-ahead

@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "fxresearch"
+version = "0.1.0"
+description = "fx strategy research: broker-clock candles, calibrated costs, look-ahead parity gate, and an honest negative result"
+readme = "README.md"
+license = {text = "MIT"}
+authors = [{name = "Waseem Abuein"}]
+requires-python = ">=3.11"
+dependencies = ["numpy==2.5.2", "pandas==3.0.5"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src", "tests"]
